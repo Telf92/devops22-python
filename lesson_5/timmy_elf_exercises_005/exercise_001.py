@@ -17,3 +17,14 @@ print(len(fullname), len(firstname), len(lastname))
 print(f"{fullname}\n{tele}")
 
 # 6.
+ # i.
+print(fullname + ", tel: " + tele)
+
+# ii.
+print(f"{fullname}, tel: {tele}")
+
+# iii.
+print("{}, tel: {}".format(fullname, tele))
+
+# iv.
+print("%s, tel: %s" % (fullname, tele))
